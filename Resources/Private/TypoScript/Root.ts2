@@ -1,0 +1,6 @@
+prototype(rahul.socialConnect:Plugin) < prototype(TYPO3.Neos.ContentTypes:Plugin)
+prototype(rahul.socialConnect:Plugin) {
+     package = 'rahul.socialConnect:Plugin'
+     controller = 'Standard'
+     action = 'index'
+}
