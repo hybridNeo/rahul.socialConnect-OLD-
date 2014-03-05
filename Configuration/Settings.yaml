@@ -1,7 +1,5 @@
 TYPO3:
-  TYPO3CR:
-    contentTypes:
-      'rahul.socialConnect:Plugin':
-        superTypes: ['TYPO3.Neos.ContentTypes:Plugin']
-        label: 'Social Connect'
-        group: 'Plugins'
+  Neos:
+    typoScript:
+      autoInclude:
+        'rahul.socialConnect': TRUE
