@@ -1,7 +1,7 @@
-prototype(rahul.socialConnect:Plugin) < prototype(TYPO3.Neos.ContentTypes:Plugin)
-prototype(rahul.socialConnect:Plugin) {
-     package = 'rahul.socialConnect:Plugin'
-     controller = 'Standard'
+prototype(rahul.socialConnect) < prototype(TYPO3.Neos:Content)
+prototype(rahul.socialConnect) {
+     @class = 'rahul.socialConnect'
+     package = 'rahul.socialConnect'
      text.@process.convertNodeUris = TYPO3.Neos:ConvertNodeUris
-     action = 'index'
+ 
 }
