@@ -1,5 +1,5 @@
 'rahul.socialConnect':
-  superTypes: ['TYPO3.Neos:Content']
+  superTypes: ['TYPO3.Neos:Plugin']
   ui:
     label: 'Social Connect'
     group: 'general'

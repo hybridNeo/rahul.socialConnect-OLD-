@@ -2,4 +2,4 @@ TYPO3:
   Neos:
     typoScript:
       autoInclude:
-        'rahul.socialConnect': TRUE
+        'TYPO3.Neos.NodeTypes': TRUE
