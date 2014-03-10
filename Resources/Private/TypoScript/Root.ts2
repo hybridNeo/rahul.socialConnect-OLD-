@@ -1,4 +1,7 @@
-prototype(rahul.socialConnect) < prototype(TYPO3.Neos:Plugin) {
+
+prototype(rahul.socialConnect:fbook) < prototype(TYPO3.Neos:Plugin) 
+{
      package = 'rahul.socialConnect'
+     text.@process.convertNodeUris = TYPO3.Neos:ConvertNodeUris
      controller = 'Standard' 
 }

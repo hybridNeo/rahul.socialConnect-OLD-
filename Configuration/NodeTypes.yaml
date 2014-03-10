@@ -1,4 +1,4 @@
-'rahul.socialConnect':
+'rahul.socialConnect:fbook':
   superTypes: ['TYPO3.Neos:Plugin']
   ui:
     label: 'Social Connect'
